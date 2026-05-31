@@ -5,7 +5,7 @@ An AI-powered recruitment platform that automatically evaluates resumes against 
 ## 🌐 Live Demo
 
 **Frontend:** 
-ai-resume-screening-system-mdej-bpuv3k9pa-srikan748s-projects.vercel.app
+https://ai-resume-screening-system-mdej-bpuv3k9pa-srikan748s-projects.vercel.app
 
 **Backend API:** https://ragpulse-x7-ai-resume-screening-system.hf.space
 
