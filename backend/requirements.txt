@@ -1,5 +1,9 @@
-transformers
-peft
-accelerate
+fastapi
+uvicorn
+python-multipart
+sentence-transformers
+PyMuPDF
+reportlab
 torch
-sentencepiece
+numpy
+scikit-learn
