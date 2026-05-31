@@ -1,0 +1,9 @@
+backend/datasets/
+uploaded_resumes/
+outputs/
+__pycache__/
+*.pdf
+.env
+.env.local
+node_modules/
+.next/
