@@ -2,13 +2,10 @@
 
 import { useState } from "react";
 import Link from "next/link";
-const BACKEND_URL = "http://127.0.0.1:8000";
-<Link
-  href="/architecture"
-  className="px-6 py-3 rounded-xl bg-cyan-600 hover:bg-cyan-500"
->
-  View Architecture
-</Link>
+const BACKEND_URL =
+  process.env.NEXT_PUBLIC_API_URL ||
+  "https://ragpulse-x7-ai-resume-screening-system.hf.space";
+
 export default function Page() {
   const [files, setFiles] = useState<FileList | null>(null);
   const [jobDescription, setJobDescription] = useState("");
